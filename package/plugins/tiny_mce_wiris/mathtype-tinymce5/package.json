@@ -1,0 +1,79 @@
+{
+  "_from": "@wiris/mathtype-tinymce5",
+  "_id": "@wiris/mathtype-tinymce5@7.26.1",
+  "_inBundle": false,
+  "_integrity": "sha512-2vbKrdKnEVXIPjVo6fGArKz/FWPPOkFxGiDxQEizt78Fz7nZ3v+RK3G9kW5d8Pl2bPAZ8X43A/bDIGMBamtCFQ==",
+  "_location": "/@wiris/mathtype-tinymce5",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@wiris/mathtype-tinymce5",
+    "name": "@wiris/mathtype-tinymce5",
+    "escapedName": "@wiris%2fmathtype-tinymce5",
+    "scope": "@wiris",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@wiris/mathtype-tinymce5/-/mathtype-tinymce5-7.26.1.tgz",
+  "_shasum": "d0637a00ac175d28a8a7d8bc2cd7d5cc0d7b385f",
+  "_spec": "@wiris/mathtype-tinymce5",
+  "_where": "E:\\www\\lqyBlogVue",
+  "author": {
+    "name": "WIRIS Team",
+    "url": "http://www.wiris.com"
+  },
+  "bugs": {
+    "email": "support@wiris.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@wiris/mathtype-html-integration-devkit": "1.5.1"
+  },
+  "deprecated": false,
+  "description": "MathType Web for TinyMCE5 editor",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "homepage": "http://www.wiris.com/",
+  "keywords": [
+    "chem",
+    "chemistry",
+    "chemtype",
+    "editor",
+    "equation",
+    "latex",
+    "math",
+    "mathml",
+    "maths",
+    "mathtype",
+    "tinymce",
+    "tinymce5",
+    "wiris"
+  ],
+  "license": "MIT",
+  "main": "plugin.min.js",
+  "name": "@wiris/mathtype-tinymce5",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build-dev": "webpack --mode development",
+    "clean": "npx rimraf plugin.min.js",
+    "compile": "node ../../scripts/services/compile editor_plugin.src.js .",
+    "prepack": "npm install && npm run compile -- npm"
+  },
+  "version": "7.26.1"
+}
