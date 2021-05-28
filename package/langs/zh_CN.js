@@ -415,5 +415,6 @@ tinymce.addI18n('zh_CN',{
 "Whole words": "\u5168\u5b57\u5339\u914d",
 "Spellcheck": "\u62fc\u5199\u68c0\u67e5",
 "Caption": "\u6807\u9898",
-"Insert template": "\u63d2\u5165\u6a21\u677f"
+"Insert template": "\u63d2\u5165\u6a21\u677f",
+"Line height": "行高"
 });
